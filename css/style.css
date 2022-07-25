@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'Raleway', sans-serif; */
+
+/* general styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* ------------------------------ header ------------------------------ */
+header {
+    top: 0;
+    height: 76px;
+    padding: 20px 80px;
+    border-top: 1px solid #bbb;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    background: white;
+}
+
+/* navigation / general styles */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+/* links / general styles */
+header a {
+    text-decoration: none;
+}
+
+/* logo */
+header nav a {
+    color: #666;
+
+}
+
+header nav a:hover {
+    color: #333;
+}
+
+header .logo {
+    font-size: 22px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+/* navigation on the right */
+header nav div {
+    display: flex;
+    flex-basis: fit-content;
+    /* justify-content: space-between; */
+    gap: 40px;
+    list-style-type: none;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+header div a {
+    color: #333;
+}
+
+header div a:hover {
+    color: #337ab7;
+}
+
+/* ------------------------------ Main ------------------------------ */
+
+/* ---------------- Hero ---------------- */
+
+/* Hero Background Image */
+main {
+    background-image: url("https://demo.colorlib.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
+
+/* Hero general */
+main .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* main headline */
+main .hero h1 {
+    font-weight: 200;
+    font-size: 60px;
+    width: 50%;
+    line-height: 1.1em;
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Hero Paragraph */
+main .hero p {
+    font-size: 0.925em;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 15px;
+}
+
+/* Hero Links Container */
+main .hero div {
+    text-align: center;
+    padding: 40px;
+}
+
+/* Hero Links general */
+main .hero a {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    color: white;
+    letter-spacing: 0.05em;
+    margin: 3px;
+    text-decoration: none;
+}
+
+/* Hero Button 1 */
+main .button1 {
+    background: #745cf9;
+    border: 2px solid #745cf9;
+    padding: 20px 55px;
+}
+
+/* Hero Button 1 / hover */
+main .button1:hover {
+    color: white;
+    background: #5234f9;
+    border: 2px solid #5234f9;
+}
+
+/* Hero Button 2 */
+main .button2 {
+    border: 2px solid white;
+    padding: 20px 35px;
+}
+
+/* Hero Button 2 / hover */
+main .button2:hover {
+    color: black;
+    background: #ffffff;
+}
+
+
+/* ---------------- seoFriendly & portfolio ---------------- */
+
+/* Sections general */
+main .flex {
+    display: flex;
+    justify-content: center;
+    padding: 10vh 10vw;
+    gap: 2vw;
+}
+
+/* Images general */
+main .flex img {
+    width: 55%;
+}
+
+/* Text Blocks general */
+main .flex article {
+    margin-top: 4vh;
+}
+
+/* Headlines H2 general */
+main .flex h2 {
+    color: #0e1015;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/* Paragraphs general */
+main .flex p {
+    color: #8c979e;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.75em;
+    padding: 25px 0 55px 0;
+}
+
+/* Links general */
+main .flex a {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    color: white;
+    text-decoration: none;
+
+    background: #745cf9;
+    border: 2px solid #745cf9;
+    padding: 15px 40px;
+}
+
+/* Links hover general */
+main .flex a:hover {
+    color: white;
+    background: #5234f9;
+    border: 2px solid #5234f9;
+}
+
+/* Section SEO Friendly / Background */
+main .seoFriendly {
+    background-color: white;
+}
+
+/* Section Portfolio / Background */
+main .portfolio {
+    background-color: rgb(237, 237, 237);
+}
